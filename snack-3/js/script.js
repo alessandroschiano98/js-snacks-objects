@@ -24,3 +24,16 @@ const animals = [
 
 console.log(animals);
 
+
+const animalsMammiferi = [];
+
+for (let i = 0; i < animals.length; i++) {
+  const currAnimals = animals[i];
+  const currMammiferi =  currAnimals.classe; 
+  if (currMammiferi === "Mammiferi") {
+    animalsMammiferi.push(currAnimals);
+} 
+
+}
+console.log(animalsMammiferi);
+

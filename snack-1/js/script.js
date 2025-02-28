@@ -38,6 +38,7 @@ const cars = [
     } else {
         carsRestanti.push(currCars);
     }
+
   }
 
   console.log(carsBenzina, carsDiesel, carsRestanti);
