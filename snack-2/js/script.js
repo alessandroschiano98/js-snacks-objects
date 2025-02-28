@@ -12,3 +12,15 @@ Crea un nuovo array con la lista dei mammiferi.
 
 */
 
+const animals = [
+    {nome: "Cavallo", famiglia: "Equidi", classe: "Mammiferi"},
+    {nome: "Leone", famiglia: "Felidi", classe: "Mammiferi"},
+    {nome: "Koala", famiglia: "Fascolarctidi", classe: "Mammiferi"},
+    {nome: "Squalo", famiglia: "Squallidi", classe: "Pesci"},
+    {nome: "Ragno", famiglia: "Araneidi", classe: "Arachnida"}
+
+]
+
+
+console.log(animals);
+
