@@ -18,10 +18,12 @@ const cars = [
     { marca: "Tesla", modello: "Model-Y", alimentazione: "Elettrica" },
     { marca: "Citroen", modello: "C3", alimentazione: "Benzina" }];
 
-    console.log(cars[0].marca); 
+    console.log(cars); 
 
-   /*  const carsBenzina = [];
-    const carsDiesel = [];
-    const carsRestanti = []; */
+  const carsBenzina = [];
+  const carsDiesel = [];
+  const carsRestanti = [];
+
+
 
 
