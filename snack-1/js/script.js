@@ -20,10 +20,26 @@ const cars = [
 
     console.log(cars); 
 
-  const carsBenzina = [];
-  const carsDiesel = [];
-  const carsRestanti = [];
+
+    const carsBenzina = [];
+  
+    const carsDiesel = [];
+  
+    const carsRestanti = [];
 
 
+  for (let i = 0; i < cars.length; i++) {
+    const currCars = cars[i];
+    const alimentazioneCars = currCars.alimentazione;
+    if (alimentazioneCars === "Benzina") {
+        carsBenzina.push(currCars);
+    } else if (alimentazioneCars === "Diesel") {
+        carsDiesel.push(currCars);
+    } else {
+        carsRestanti.push(currCars);
+    }
+  }
 
+  console.log(carsBenzina, carsDiesel, carsRestanti);
 
+  
